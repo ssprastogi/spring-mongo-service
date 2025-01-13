@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-mongo-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/local
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    path: /api-docs
